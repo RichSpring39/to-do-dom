@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<link href="style.css" rel="stylesheet" type="text/css" />
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do-List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="app">
+        <div id="header">
+            <h1>ToDo</h1>
+        </div>
+
+        <div class="title">
+            <h3>Add Your Todo List</h3>
+        </div>
+
+        <div>
+            <form id="toDoForm">
+                <input id="toDoInput" type="text" placeholder="Enter item">
+            </form>
+        </div>
+        <div id="buttons">
+            <input type="submit" id="addButton" value="Add" />
+            <input type="submit" id="removeCompTask" value="Remove Completed Task">
+            <input type="submit" id="removeAll" value="Remove All" />
+        </div>    
+        <div id="listItems">
+            <ol id="liItems"></ol>
+
+            <script src='main.js'></script>
+</body>
+

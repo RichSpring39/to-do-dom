@@ -1,0 +1,34 @@
+body{
+    background-color: white;
+    color: black;
+    text-align: left;
+}
+input{
+    font-size: x-large;
+    margin-bottom: 10px;
+}
+
+#addButton{
+   background-color: green;
+   color: white;
+}
+
+#removeCompTask{
+    background-color: rgb(255, 204, 0);
+}
+
+#removeAll{
+   background-color: red;
+   color: white;
+}
+
+li{
+    list-style-type: square;
+    margin-bottom: 10px;
+}
+
+#toDoInput{
+    background-color: white;
+    text-align: left;
+    color: black;
+}
